@@ -80,7 +80,7 @@ body {
 .hero {
     display: flex;
     padding: 100px 0;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     font-weight: 200;
 }
@@ -90,6 +90,12 @@ body {
     font-size: 48px;
 }
 
+.hero .main .sub-title {
+    color: #efe7eb;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
 .hero .main button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -97,11 +103,56 @@ body {
     font-size: 16px;
     width: 120px;
     height: 35px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: none
 }
 
 .hero .hero-image-continer {
     background-color: grey;
     flex: 2
+}
+
+.content {
+    padding: 0 185px 100px 142px;
+}
+
+.content-header {
+    text-align: center;
+    padding: 36px 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.content-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px;
+    gap: 10px;
+}
+
+.content-images div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+}
+
+.content-images p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.content img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote-div {
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+}
+
+.quote-div p {
+    color: #1f2937;
 }
